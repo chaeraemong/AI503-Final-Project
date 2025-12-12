@@ -26,6 +26,7 @@ conda create --name pfn
 conda activate pfn
 git clone https://github.com/automl/PFNs.git
 cd PFNs
+conda install python>=3.9
 pip install -e .
 ```
 
